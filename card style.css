@@ -1,0 +1,127 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.header {
+    background-color: #14A67D;
+    padding: 20px;
+}
+/* 제목 스타일 */
+h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    color: #000000;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #101010;
+}
+
+/* 프로필 카드 스타일 */
+.profile-card {
+    width: 320px;
+    border: 2px solid #000000;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    text-align: left;
+}
+
+/* 프로필 카드 내부 텍스트 */
+.profile-card h2 {
+    color: #323232;
+}
+
+.profile-card p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* 목차 스타일 */
+div[id^="outline"], div[id^="broadcasting"], div[id^="performance"], div[id^="digression"] {
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* 목차 링크 스타일 */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+    display: block;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+li:hover {
+    background: #989898;
+    color: beige;
+}
+
+/* 표 스타일 */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    /* background-color: #ffffff; */
+}
+
+th {
+    border: 2px solid #000000;
+    padding: 10px;
+}
+
+td {
+    border: 2px solid #000000;
+    padding: 10px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 세부 정보 스타일 */
+details {
+    background: rgba(255, 255, 255, 0.2);
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section {
+    border-radius: 10px;
+    background-color: #e2e2e2;
+}
+
