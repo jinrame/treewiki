@@ -1,0 +1,50 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: linear-gradient(to right, #b37fcc, #a7c9eb);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #6a0572;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333333;
+}
+
+li:hover {
+    background: #835c90;
+}
+
+li:hover a {
+    color: white;
+}
